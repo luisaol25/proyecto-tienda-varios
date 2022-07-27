@@ -1,0 +1,22 @@
+ul{
+    background-color: rgb(56, 87, 87);
+
+}
+
+li{
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-right: 20%;
+
+    ;
+}
+
+a{
+    text-decoration: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+ 
+}
