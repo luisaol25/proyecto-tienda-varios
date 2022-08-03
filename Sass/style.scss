@@ -1,0 +1,25 @@
+//variables//
+$fuente-tipica: sans-serif, arial;
+$color-fondo: #ccc;
+$color-letra:blue;
+$color-secundario:rgb(181, 188, 181);
+
+//uso de variables//
+body{
+    background-color: $color-fondo;
+}
+h1{
+    color: $color-letra;
+    font-family: $fuente-tipica;
+}
+// anidacion//
+.div{
+    border: 10px solid beige;
+    width: 40px;
+    margin:0px auto;
+    text-align: center;
+    background-color: bisque;
+}
+.footer{
+    font-family: 'Courier New', Courier, monospace;
+}

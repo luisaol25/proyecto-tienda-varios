@@ -1,52 +1,22 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: cadetblue;
-}
-h1{
-    font-size: 75px;
-    color: darkred;
-}
-#imagenes img{
-    width: 15%;
-    transition: all 300ms;
-    position: relative;
-    
+body {
+  background-color: #ccc;
 }
 
-#imagenes img:hover{
-    transform: scale(1.15);
+h1 {
+  color: blue;
+  font-family: sans-serif, arial;
 }
 
-.nav{
-    background-color: currentColor;
+.div {
+  border: 10px solid beige;
+  width: 40px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: bisque;
 }
 
-
-ul{
-    background-color: rgb(56, 87, 87);
-
+.footer {
+  font-family: "Courier New", Courier, monospace;
 }
 
-li{
-    height: 100px;
-    background-color: cornflowerblue;
-    margin-right: 20%;
-
-
-}
-
-a{
-    text-decoration: none;
-}
-.grid{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    
- 
-}
-
-.icon{
-    position:relative;
-    display: inline-flex;
-
-}
+/*# sourceMappingURL=style.css.map */
